@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Historia y Pasión del Voleibol</title>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: slideIn 2s ease forwards;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: rgba(255,255,255,0.1);
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      background: rgba(0,0,0,0.6);
+      margin: 2rem;
+      border-radius: 15px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #ffeb3b;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.8);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Historia y Pasión del Voleibol</h1>
+</header>
+<nav>
+<a href="#origen">Origen</a>
+<a href="#reglas">Reglas</a>
+<a href="#expansion">Expansión</a>
+<a href="#actualidad">Voleibol Actual</a>
+</nav>
+<section id="origen">
+<h2>Origen</h2>
+<p>El voleibol fue creado en 1895 por William G. Morgan en Massachusetts, EE.UU., como una alternativa menos agresiva al baloncesto. Su nombre original era “mintonette”.</p>
+</section>
+<section id="reglas">
+<h2>Reglas Básicas</h2>
+<div class="timeline">
+<div class="card">Cada equipo cuenta con seis jugadores en la cancha.</div>
+<div class="card">El balón no debe tocar el suelo dentro de la propia cancha.</div>
+<div class="card">Se permite un máximo de tres toques antes de pasar la pelota al otro lado.</div>
+<div class="card">Un set se gana con 25 puntos y diferencia de dos.</div>
+</div>
+</section>
+<section id="expansion">
+<h2>Expansión Mundial</h2>
+<p>En 1947 se fundó la Federación Internacional de Voleibol (FIVB). En 1964, el voleibol ingresó a los Juegos Olímpicos de Tokio, marcando su consolidación como deporte global.</p>
+</section>
+<section id="actualidad">
+<h2>El Voleibol en la Actualidad</h2>
+<p>Hoy en día, el voleibol es uno de los deportes más practicados en el mundo, con millones de jugadores y aficionados. Existen modalidades como el voleibol de playa y se celebran ligas profesionales en múltiples países.</p>
+</section>
+<footer>
+<p>© 2025 Historia del Voleibol | Proyecto Estudiantil</p>
+<p>Contacto: miguelangel@gmail.com | Tel: +57 302 1018240</p></footer>
+</body>
+</html>
